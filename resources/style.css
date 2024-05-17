@@ -1,18 +1,18 @@
 body {
-    background-color: black;
+    background-color: #000000;
     text-align: center;
 }
 
 h1 {
     display: flex;
     justify-content: center;
-    color: white;
+    color: #ffffff;
 }
 
 .head {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
-    color: white;
+    color: #ffffff;
     font-size: 50px;
 }
 
@@ -28,7 +28,7 @@ p {
 }
 
 a {
-    color: aquamarine;
+    color: #7fffd4;
     font-size: 16px;
     display: flex;
     justify-content: center;
@@ -37,12 +37,15 @@ a {
 text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 21px;
-    color: gray;
+    color: #808080;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
 }
 
 span {
-    color: gray;
-    display: flex;
-    justify-content: flex-end;
+    color: #808080;
     font-size: 25px;
 }
